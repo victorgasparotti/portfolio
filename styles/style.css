@@ -146,7 +146,11 @@ body {
     }
 
     .imagem-pequena{
-        width: 60%;
+        width: 80%;
+    }
+    
+    .apresentacao__links__navegacao{
+        width: 90%;
     }
     
 }
