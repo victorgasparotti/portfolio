@@ -145,12 +145,17 @@ body {
         padding: 5%;
     }
 
-    .imagem-pequena{
-        width: 80%;
-    }
-    
     .apresentacao__links__navegacao{
         width: 90%;
     }
+
+    .imagem-pequena{
+        width: 80%;
+    }
+
+    .rodape{
+        font-size: 1rem;
+    }
+    
     
 }
