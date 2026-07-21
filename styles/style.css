@@ -151,6 +151,7 @@ body {
 
     .imagem-pequena{
         width: 80%;
+        height:auto;
     }
 
     .rodape{
