@@ -141,8 +141,14 @@ body {
     }
 
     .apresentacao__conteudo{
-        width: auto;
+        width: 90%;
         padding: 5%;
+    }
+
+    .apresentacao__conteudo__texto{
+        font-size: 1rem;
+        line-height: 1.7;
+        text-align: left;
     }
 
     .apresentacao__links__navegacao{
@@ -151,8 +157,13 @@ body {
 
     .imagem-pequena{
         width: 80%;
-        height:auto;
     }
+
+    .segunda-imagem-pequena{
+        width: 75%;
+        max-width: 350px;
+        height: auto;
+        object-fit: contain;
 
     .rodape{
         font-size: 1rem;
@@ -160,3 +171,4 @@ body {
     
     
 }
+
