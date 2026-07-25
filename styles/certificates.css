@@ -1,0 +1,35 @@
+
+
+.apresentacao__links__certificados{
+    display:flex;
+    justify-content:left;
+    gap:16px;
+    border: 2px solid var(--cor-terciaria);
+    width: 50%;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 10px 70px;
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.apresentacao__conteudo_subtitulo{
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    margin:50px 0 30px 0;
+}
+
+@media(max-width: 1200px ){
+    .apresentacao__links__certificados{
+        padding: 10px 10px;
+        height: auto;
+        min-width: 60px ;
+        line-height: 1.4;
+        width: 80%;
+    }
+}
